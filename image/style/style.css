@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+img {
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-bottom: 79px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;  
+}
+.header_nav-list a{
+    color: #8C8A8A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: color 500ms;
+    margin-bottom: 38px;
+}
+.header_nav-list a:hover{
+    color: rgb(255, 0, 0);
+}
+.main_content-photo img{
+    width: 1110px;
+    height: 450px;
+    margin-left: 0;
+    margin-bottom: 50px;
+
+}
+.main_content{
+    display: flex;
+    justify-content: space-between;
+}
+.item_first{
+    width: 730px;
+    background: var(--grey, #F0F0F0);
+    margin-right: 20px;
+}
+.item_second{
+    width: 350px;
+    background: var(--grey, #F0F0F0);
+}
+.item_first h3{
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+
+}
+.item_first p{
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 51px;
+    width: 595px;
+    margin-left: 40px;
+}
+.item_second h3{
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+
+}
+.item_second p{
+    color: #808080; 
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+    width: 286px;
+    margin-left: 40px;
+    gap: 30px;
+}
+.number{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.footer_contacts h3{
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.footer_content{
+    background: var(--grey, #F0F0F0); 
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_content img {
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer_content h3{
+    margin-top: 46px;
+    margin-right: 45px;
+}
+.footer_contacts {
+    color: #808080;
+
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
